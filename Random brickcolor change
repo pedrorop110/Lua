@@ -1,0 +1,7 @@
+function mudar_cor()
+	while task.wait(0.1) do
+		script.Parent.BrickColor = BrickColor.random()
+	end
+end
+
+mudar_cor()
